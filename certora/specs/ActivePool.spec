@@ -26,7 +26,7 @@ methods {
     function collateral() external returns (address) envfree;
 
     function collateralToken.balanceOf(address) external returns (uint256) envfree; 
-    function _.balanceOf(address) external => DISPATCHER(true); //is this the correct way of defining an interface for an unknown contract? 
+    // function _.balanceOf(address) external => DISPATCHER(true); //is this the correct way of defining an interface for an unknown contract? 
 }
 
 use rule sanity;
